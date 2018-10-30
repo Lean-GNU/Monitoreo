@@ -1,0 +1,10 @@
+Al instalar el kernel 3.16.44 en placas de red: (ver eth bastidas)
+
+Aug 23 07:26:14 general kernel: [    9.779231] bnx2 0000:03:00.1: Direct firmware load failed with error -2 
+Aug 23 07:26:14 general kernel: [    9.779232] bnx2 0000:03:00.1: Falling back to user helper 
+Aug 23 07:26:14 general kernel: [    9.780736] bnx2: Can't load firmware file "bnx2/bnx2-mips-09-6.2.1b.fw" 
+Aug 23 07:26:14 general kernel: [    9.790938] bnx2 0000:04:00.1: Direct firmware load failed with error -2 
+Aug 23 07:26:14 general kernel: [    9.790939] bnx2 0000:04:00.1: Falling back to user helper 
+Aug 23 07:26:14 general kernel: [    9.792284] bnx2: Can't load firmware file "bnx2/bnx2-mips-09-6.2.1b.fw" 
+Aug 23 07:26:14 general kernel: [    9.800750] bnx2 0000:04:00.0: Direct firmware load failed with error -2 
+

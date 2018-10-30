@@ -1,0 +1,7 @@
+ContractNotification.where(lapse: nil).destroy_all
+
+ContractNotification.where(lapse: nil).map{|c| c.try (:destroy) rescue nil}
+
+ContractNotification.where(lapse: nil).count
+
+ContractNotification.where(lapse: nil).delete_all

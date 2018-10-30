@@ -1,0 +1,19 @@
+# Restauracion de SQL con reinstalacion 
+
+1) Buscar un backup o hacer un dump con verbose para asegurarse de que no explote ninguna tabla
+
+2) Hacer un backup del contenido del directorio /var/lib/mysql 
+
+3) apt-get remove mysql-server mysql-server-5.1
+
+4) apt-get install mysql-server
+
+5) Crear la base desde la consola: CREATE DATABASE sequreisp_production;
+
+***NOTA: Si se hace un --purge ó si se elimina todos los archivos, puede que salte el error "Access denied for user 'sequreisp'@'localhost' *** . Si sucede hacer:
+
+A) Crear user desde mysql: CREATE USER 'sequreisp'@'localhost' IDENTIFIED BY 'PASSWORD' (el password se encuentra en /opt/sequreisp/deploy/current/config/database.yml
+
+B) Otorgar permisos al user: GRANT ALL PRIVILEGES ON *.* TO 'sequreisp'@'localhost'; 
+ 
+

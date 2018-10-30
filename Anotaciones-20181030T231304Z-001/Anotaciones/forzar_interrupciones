@@ -1,0 +1,9 @@
+# Forzar interrupciones en un core especifico
+
+1) Con el cat /proc/interrupts se puede ver el numero de irq
+
+2) cd /proc/irq/x [donde x es el numero de irq]
+
+3) echo y > smp_affinity_list [donde y es el numero de irq] 
+
+***NOTA: Los cores se cuentan desde el 0 en adelante 

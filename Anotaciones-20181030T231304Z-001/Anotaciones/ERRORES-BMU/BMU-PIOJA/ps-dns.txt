@@ -1,0 +1,8 @@
+  558 root       0:00 ssh -o StrictHostKeyChecking=no -i /usr/src/app/data/.ssh/bmu-rsa 172.17.0.1 /usr/local/bin/wispro restart dnsmasq
+  577 root       0:00 {wispro} /bin/bash /usr/local/bin/wispro restart dnsmasq
+  584 root       0:00 docker stop dnsmasq
+ 4581 root       1:54 [dnsmasq]
+32577 root       0:00 ssh -o StrictHostKeyChecking=no -i /usr/src/app/data/.ssh/bmu-rsa 172.17.0.1 /usr/local/bin/wispro restart dnsmasq
+32580 root       0:00 {wispro} /bin/bash /usr/local/bin/wispro restart dnsmasq
+32587 root       0:00 docker stop dnsmasq
+

@@ -1,0 +1,79 @@
+ docker logs wispro-daemon
+  427  docker logs -f wispro-daemon
+  428  wispro stop daemon
+  429  docker ps -a |grep daemon
+  430  docker ps -a |grep daemon
+  431  docker ps
+  432  wispro stop daemon
+  433  docker ps -a 
+  434  type wispro
+  435  vi /usr/local/bin/wispro
+  436  docker stop wispro-daemon.
+  437  docker stop wispro-daemon
+  438  docker ps -a
+  439  docker stop wispro-daemon
+  440  echo $?
+  441  docker stop -v wispro-daemon
+  442  docker -v stop wispro-daemon
+  443  docker ps
+  444  docker stop -f wispro-daemon
+  445  docker stop -h
+  446  docker stop -t 6 wispro-daemon
+  447  docker ps
+  448  docker ps -a
+  449  docker stop -t 60 wispro-daemon
+  450  docker ps
+  451  wispro bash-daemon
+  452  wispro bash_daemon
+  453  wispro bash daemon
+  454  docker ps
+  455  docker exec -it wispro-daemon sh
+  456  docker exec -it 440e5e3ccc94 sh
+  457  wispro reset
+  458  docker ps
+  459  docker rm -f 440e5e3ccc94
+  460  docker ps
+  461  docker ps -a
+  462  docker ps -a
+  463  docker system prune
+  464  VERSION=0.1.15 wispro start daemon
+  465  docker ps -a
+  466  docker ps -a
+  467  docker ps -a
+  468  docker ps -a
+  469  docker ps -a
+  470  docker ps -a
+  471  docker ps -a
+  472  docker ps -a
+  473  docker system prune
+  474  wispro reset
+  475  wispro stop 
+  476  docker ps -a
+  477  docker rm -f 6886c0a0612c
+  478  service  docker stop
+  479  service  docker start
+  480  docker system prune -f
+  481  docker system prune -f
+  482  VERSION=0.1.15 wispro start
+  483  docker ps -a
+  484  docker ps -a
+  485  docker ps -a
+  486  docker ps -a
+  487  docker ps -a
+  488  docker ps -a
+  489  docker ps -a
+  490  docker logs -f wispro-daemon
+  491  lñs
+  492  ls
+  493  ls bmud.log 
+  494  tail bmud.log 
+  495  tail -n 10000 bmud.log 
+  496  docker ps
+  497  wispro restart
+  498  exit
+  499  htop
+  500  docker logs -f wispro-server 
+  501  docker ps -a
+  502  docker ps -a
+  503  history
+

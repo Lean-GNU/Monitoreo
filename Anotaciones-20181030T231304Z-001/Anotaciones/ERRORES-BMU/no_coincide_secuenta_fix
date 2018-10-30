@@ -1,0 +1,12 @@
+# En el Bmu
+PendingSync.last_acked_bmu_pending_sync_id # Valor de bmu_last_acked_id
+# En el Cloud
+ServerConfiguration.find(ID).last_acked_pending_sync  # Valor de cloud_last_acked_id
+ServerConfiguration.find(ID).last_successfully_applied_bmu_pending_sync_id
+ # si es diferente a bmu_last_acked_id
+ServerConfiguration.find(ID).update_column(:last_successfully_applied_bmu_pending_sync_id, BMU_LAST_ACKED_ID)
+
+# En el Bmu
+ServerConfiguration.last.last_successfully_applied_pending_sync_id 
+# Si es diferente del cloud_last_acked_id
+ServerConfiguration.last.update_column(:last_successfully_applied_pending_sync_id , CLOUD_LAST_ACKED_ID)

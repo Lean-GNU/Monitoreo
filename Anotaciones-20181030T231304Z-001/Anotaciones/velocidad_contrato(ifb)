@@ -1,0 +1,9 @@
+# Verificar velocidad asociada a un contrato
+
+1) Grepear por la ip del contrato al archivo de ifb1 
+
+grep [IP] /opt/sequreisp/scripts/tc_ifb1
+
+2) Buscamos dentro de las reglas con la marca obtenida
+
+tc -s class show dev ifb1 | grep [marca] 

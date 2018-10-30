@@ -1,0 +1,9 @@
+# Modelo de datos de Facturacion:
+
+Invoice ---> Item
+	      |--------> Pending
+	      |--------> Extra
+	      |--------> Pending
+			     |-------> PLAN
+			     |-------> Contrato
+					    |------> Cliente

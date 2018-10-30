@@ -1,0 +1,14 @@
+# Port forwarding over MKT
+
+1) ip > firewall > NAT > + 
+
+2) solapa general
+
+	*Chain: dstnat
+	*Protocol: tcp/udp
+	*Dst. Port: 3308 (por ejemplo)
+
+3) Solapa action:
+	*Action: dst-nat
+	*To Address: 192.x.x.x
+	*To Ports: 8291 (winbox default port)

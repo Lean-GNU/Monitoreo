@@ -1,0 +1,20 @@
+# Compilacion de kernel
+
+1) Seleccionar el kernel a compilar en www.kernel.org
+
+2) wget del archivo (tener en cuenta de usar el link como http y no https. Descargar uno que empieze con linux)
+
+3) Abrir un screen 
+
+4) Utilizar un archivo config de otra version para no tener que seleccionar todos los modulos:
+
+cp /boot/config-3.13.0-85 generic .config
+
+***NOTA: Se copia como archivo oculto, tiene que quedar asi.
+
+5) make deb-dpkg
+
+6) Enter (todo por defecto)
+
+
+
