@@ -1,5 +1,0 @@
-
-AvoidBalancingHost.all.select{|a| a.provider.nil? }
-
-AvoidBalancingHost.all.select{|a| a.provider.nil? }.each {|a| a.update_attribute(:provider_id, Provider.first.id)}
-

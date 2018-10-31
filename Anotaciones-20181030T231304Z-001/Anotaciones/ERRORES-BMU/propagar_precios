@@ -1,5 +1,0 @@
-Para propagar masivamente precios en el Cloud
-
-plan = Plan.find'(id_plan)'
-
-plan.isp.plans.each {|p| p.invoicing_plan.propagate_price}

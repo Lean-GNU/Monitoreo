@@ -1,5 +1,0 @@
-#Recuperar base de datos BMU v0.2.0
-
-
-wispro bash-server
-rails db:create db:migrate db:seed

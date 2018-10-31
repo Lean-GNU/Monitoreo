@@ -1,9 +1,0 @@
-dnsmasq: forwarded stags.bluekai.com to 8.8.4.4
-dnsmasq: query[A] stags.bluekai.com from 192.168.21.95
-dnsmasq: forwarded stags.bluekai.com to 8.8.8.8
-dnsmasq: forwarded stags.bluekai.com to 8.8.4.4
-dnsmasq: reply stags.bluekai.com is <CNAME>
-dnsmasq: reply tags.bluekai.com.edgekey.net is <CNAME>
-dnsmasq: reply e13541.x.akamaiedge.net is 104.65.182.229
-dnsmasq: exiting on receipt of SIGTERM
-

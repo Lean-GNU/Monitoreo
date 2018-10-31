@@ -1,5 +1,0 @@
-###Consulta para ver ISPs con problemas de backup
-PendingSync.unacked.where.not(error_message: nil).uniq.each{ |ps| server = ServerConfiguration.find_by(id: ps.server_configuration_id); puts "ISP: #{server.isp.name} Server: #{server.name}, SERVER_ID: #{server.id}" if server.present?};nil
-
-###Consulta para ver ISPs con problemas al aplicar cambios
-ServerConfiguration.where.not(last_unsuccessfully_applied_bmu_pending_sync_error: nil).each{|server| puts "ISP: #{server.isp.name} Server: #{server.name}, SERVER_ID: #{server.id}"};nil

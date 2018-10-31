@@ -1,6 +1,0 @@
-#Cortes graficas de consumo instantaneo  
-
-#Editar el archivo /etc/sshd_config y colocar lo siguiente:
-
-MaxStartups 100:1:100
-ClientAliveCountMax 50

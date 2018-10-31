@@ -1,9 +1,0 @@
-Buenos días Edgar, la cantidad de megas que usted debe adquirir para el modulo de SuperCache deben ser iguales o mayor al ancho de banda que usted posee en su LAN.
-
-El supercache tiene básicamente 3 flags que comprenden MISS, STORE y HIT. MISS es el indicativo relacionado con las entradas del puerto 80 que se puede o no ser guardado, STORE aparece cuando el objeto se almacena y HIT cuando el objeto se entrega a algún cliente.
-En los momentos en cuales el caudal de tráfico supera la licencia de supercache contratada la información se sigue guardando (STORE) pero no se entrega al cliente (HIT).
-El costo del supercache está asociado al importante ahorro en el consumo de internet de los clientes (hasta un 33% en servidores grandes) y ayuda a resolver grandes problemas de ISPs como el tráfico provocado por actualizaciones de Microsoft, Chrome y Debian, entre otras grandes ventajas. Teniendo en cuenta que el 60% del tráfico global es de Netflix.
-
-Le dejo las guías al respecto para que pueda leerlas:
-http://doc.wispro.co/index.php?title=SuperCache
-http://doc.wispro.co/index.php?title=Guia_de_Monitoreo_de_SuperCache

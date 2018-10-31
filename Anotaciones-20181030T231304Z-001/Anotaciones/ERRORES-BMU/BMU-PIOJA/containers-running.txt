@@ -1,8 +1,0 @@
-wispro-host:/usr/src/app/log# docker ps
-CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS              PORTS                    NAMES
-52482e14fe4d        wispro/bmu:0.1.21                  "/usr/src/app/bin/..."   7 days ago          Up 7 days           3000/tcp                 wispro-daemon
-f2d5ba8f287e        wispro/bmu_nginx:1.2               "nginx -g 'daemon ..."   7 days ago          Up 7 days                                    nginx
-b195e48ae8ce        wispro/bmu:0.1.21                  "/usr/src/app/bin/..."   7 days ago          Up 7 days           0.0.0.0:3000->3000/tcp   wispro-server
-c696379e4b81        wispro/bmu_dnsmasq:1.1             "dnsmasq --no-daem..."   4 weeks ago         Up 6 days                                    dnsmasq
-bcb9cc57dba7        marcelmaatkamp/freeradius:latest   "radiusd -xx -f"         7 weeks ago         Up 6 days                                    freeradius
-

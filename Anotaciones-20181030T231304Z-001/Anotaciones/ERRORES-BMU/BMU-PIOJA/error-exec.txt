@@ -1,3 +1,0 @@
-wispro-host:/usr/local/bin# docker exec -it dnsmasq /bin/sh
-rpc error: code = 2 desc = oci runtime error: exec failed: container_linux.go:247: starting container process caused "process_linux.go:83: executing setns process caused \"exit status 15\""
-

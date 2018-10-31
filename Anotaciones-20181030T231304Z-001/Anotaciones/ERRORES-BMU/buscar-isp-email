@@ -1,1 +1,0 @@
-User.find_by(email: 'ncoppi@wispro.co').isp.name
